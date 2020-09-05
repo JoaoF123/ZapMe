@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZapMe - Receba mensagens de todos no seu whatsapp</title>
+
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    
+    <div id="app">
+        <div class="container">
+            <div class="box box-topo">
+                <div class="bg"></div>
+                <img src="assets/images/logotipo.png" alt="ZapMe Logotipo" class="logotipo">
+                <h1>
+                    Receba mensagens de qualquer pessoa diretamente no seu whatsapp!
+                </h1>
+            </div>
+            <p class="texto-aux">
+                Já pensou receber mensagens dos seus amigos e clientes sem ter que ficar passando seu
+                número para todos? É possível, muito fácil e o melhor... <b>DE GRAÇA!</b>
+            </p>
+            <div class="passos">
+                <div class="passo">
+                    <i class="fas fa-align-center"></i>
+                    <p>Preencha o formulário</p>
+                </div>
+                <div class="passo">
+                    <i class="fas fa-link"></i>
+                    <p>Copie o link gerado</p>
+                </div>
+                <div class="passo">
+                    <i class="fas fa-share-alt"></i>
+                    <p>Compartilhe com seus amigos e clientes</p>
+                </div>
+            </div>
+            <div id="form-link">
+                <div class="form">
+                      <h2>Preencha o formulário abaixo para criar seu link</h2>
+                      <div class="input-group">
+                        <div class="input">
+                            <label for="ddd">DDD</label>
+                            <input type="text" name="ddd" id="ddd" placeholder="Ex.: (11)">
+                        </div>
+                        <div class="input">
+                            <label for="celular">Celular</label>
+                            <input type="text" name="celular" id="celular" placeholder="Ex.: 99999-9999">
+                        </div>
+                      </div>
+                      <div class="input">
+                          <label for="mensagem">Mensagem padrão</label>
+                          <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite aqui a sua mensagem padronizada!"></textarea>
+                      </div>
+                      <button class="btn-criar-link">Criar link</button>
+                </div>
+                <div class="link">
+                    <div class="container">
+                        <h2>Pegue seu link aqui e compartilhe!</h2>
+                        <div class="link-container">
+                            <p>Aguardando criação do link</p>
+                        </div>
+                        <a href="#" class="copiarLink">Copiar link</a>
+                        <p class="bitly">
+                            Você pode encurtar sua URL com o seu encurtador favorito,
+                            nós recomendamos o <a href="https://bitly.com/" target="_blank">bit.ly</a>.
+                        </p>
+                        <div class="compartilhe">
+                            <p>
+                                Compartilhe a gente nas redes sociais!
+                            </p>
+                            <ul>
+                                <li><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-whatsapp-square"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="rodape"></div>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://unpkg.com/imask"></script>
+<script src="https://kit.fontawesome.com/199c07e29c.js" crossorigin="anonymous"></script>
+<script src="./assets/js/main.js"></script>
+</html>
